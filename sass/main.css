@@ -99,4 +99,25 @@
   width: 60px !important;
   color: #161a1d;
   height: 60px;
+}
+
+@media all and (max-width: 780px) {
+  .map-size {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+.contact-map {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.separate {
+  height: 100px;
+  background-color: #e5383b;
 }/*# sourceMappingURL=main.css.map */

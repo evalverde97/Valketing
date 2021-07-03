@@ -8,17 +8,17 @@
         <title>valketing</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/img/logo valketing.png" />
-        <!-- Font Awesome icons (free version)-->
+        <!-- Font Awesome icons-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+        <!-- CSS-->
         <link href="css/styles.css" rel="stylesheet"/>
         <link rel="stylesheet" href="sass/main.css">
     </head>
     <body id="page-top">
-        <!-- Navigation-->
+        <!-- Nav-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand color--White" href="#page-top">Valketing</a>
@@ -31,12 +31,12 @@
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">Servicios</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team">Sobre Nosotros</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <!-- Masthead-->
+        <!-- header -->
        <header class="masthead">
             <div class="container">
                 <div class="masthead-subheading">Bienvenido a Valketing</div>
@@ -148,9 +148,9 @@
                             <img class="mx-auto rounded-circle" src="assets/img/foto_eze_byn.jpg" alt="Ezequiel Valverde" />
                             <h4>Ezequiel Valverde</h4>
                             <p class="text-muted">Desarrollador Web</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/evalverde97" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/ezevalverde1" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/evalverde97/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -158,9 +158,9 @@
                             <img class="mx-auto rounded-circle" src="assets/img/Ariel_Cipolla.jpeg" alt="Ariel Cipolla" />
                             <h4>Ariel Cipolla</h4>
                             <p class="text-muted">Periodista, Copywriter</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -168,9 +168,9 @@
                             <img class="mx-auto rounded-circle" src="./assets/img/Lucas_Coran.jpeg" alt="Lucas Coran" />
                             <h4>Lucas Coran</h4>
                             <p class="text-muted">Back-end developer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
@@ -198,7 +198,7 @@
                 </div>
             </div>
         </div>
-        <!-- Contact-->
+        <!-- Contacto-->
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
@@ -209,45 +209,39 @@
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <!-- Name input-->
+                                <!-- input de nombre -->
                                 <input class="form-control" id="name" type="text" placeholder="Tu Nombre *" data-sb-validations="required" />
                                 <div class="invalid-feedback" data-sb-feedback="name:required">Un nombre es requerido.</div>
                             </div>
                             <div class="form-group">
-                                <!-- Email address input-->
+                                <!-- input de email-->
                                 <input class="form-control" id="email" type="email" placeholder="Tu Email *" data-sb-validations="required,email" />
                                 <div class="invalid-feedback" data-sb-feedback="email:required">Un email es requerido.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email no válido.</div>
                             </div>
                             <div class="form-group mb-md-0">
-                                <!-- Phone number input-->
+                                <!-- input numero de telefono-->
                                 <input class="form-control" id="phone" type="tel" placeholder="Tu Número *" data-sb-validations="required" />
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">Un número telefónico es requerido.</div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
+                                <!-- input de mensaje -->
                                 <textarea class="form-control" id="message" placeholder="Tu Mensaje *" data-sb-validations="required"></textarea>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">Un mensaje es requerido.</div>
                             </div>
                         </div>
                     </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
+                    <!-- mensaje de exito -->
                     <div class="d-none" id="submitSuccessMessage">
                         <div class="text-center text-white mb-3">
                             <div class="fw-bolder">Enviado con éxito!</div>
                         </div>
                     </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
+                    <!-- mensaje de error -->
                     <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error al enviar!</div></div>
-                    <!-- Submit Button-->
+                    <!-- botón de enviar -->
                     <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
                 </form>
             </div>
@@ -260,10 +254,10 @@
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/valketing.digital/" target="_blank"><i class="fab fa-instagram"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" href="#!">Contacto</a>
+                        <a class="link-dark text-decoration-none me-3" href="pages/contacto.html">Contacto</a>
                         <a class="link-dark text-decoration-none" href="#!">Trabaja con nosotros!</a>
                     </div>
                 </div>

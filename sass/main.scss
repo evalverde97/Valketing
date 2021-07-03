@@ -50,3 +50,21 @@
       color:#161a1d;
       height: 60px;
 }
+.map-size{
+    @media all and (max-width: 780px) {
+        width: 400px;
+        height:  300px;
+    }
+}
+.contact-map{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.separate{
+    height: 100px;
+    background-color: #e5383b;
+}
