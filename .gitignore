@@ -35,4 +35,6 @@ logs
 
 # mis carpetas
 node_modules/
-pages/
+pages/portfolio.html
+pages/servicios.html
+pages/sobre-nosotros.html
