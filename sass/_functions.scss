@@ -1,0 +1,12 @@
+$weights: (Thin:100, Light:300, Regular:400, Bold:600);
+@each $k, $v in $weights{
+    .font--#{$k}{
+        font-weight: $v !important;
+    }
+}
+$colors: (Primary:#660708, Secondary:#a4161a, Tertiary:#ba181b,Black:#0b090a, LightBlack:#161a1d, White:#ffffff, Grey:#b1a7a6, Gradient:(90deg, rgba(102,7,8,1) 0%, rgba(186,24,27,1) 9%, rgba(203,87,89,1) 24%, rgba(245,243,244,1) 85%) );
+@each $k, $v in $colors{
+    .color--#{$k}{
+        color: $v !important;
+    }
+}
