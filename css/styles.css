@@ -3097,8 +3097,8 @@ textarea.form-control-lg {
 }
 .btn-warning:disabled, .btn-warning.disabled {
   color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: #dc3545;
+  border-color: #dc3545;
 }
 
 .btn-danger {
@@ -3107,7 +3107,7 @@ textarea.form-control-lg {
   border-color: #dc3545;
 }
 .btn-danger:hover {
-  color: #fff;
+  color: #fff !important;
   background-color: #bb2d3b;
   border-color: #b02a37;
 }
