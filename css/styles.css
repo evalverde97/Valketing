@@ -4439,8 +4439,8 @@ textarea.form-control-lg {
   }
 }
 .accordion-button:not(.collapsed) {
-  color: #e6b400;
-  background-color: #fffae6;
+  color: #ffffff;
+  background-color: #e5383b;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
 .accordion-button:not(.collapsed)::after {
@@ -4468,9 +4468,9 @@ textarea.form-control-lg {
 }
 .accordion-button:focus {
   z-index: 3;
-  border-color: #ffe480;
+  border-color: #e5383b;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(255, 200, 0, 0.25);
+  box-shadow: #aa13182f;
 }
 
 .accordion-header {
@@ -4557,7 +4557,7 @@ textarea.form-control-lg {
 .page-link {
   position: relative;
   display: block;
-  color: #ffc800;
+  color: #ba181b;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #dee2e6;
@@ -10868,7 +10868,7 @@ p {
 
 @media (min-width: 768px) {
   section {
-    padding: 9rem 0;
+    padding: 7rem 0;
   }
 }
 .btn-xl {
@@ -11014,7 +11014,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(255, 200, 0, 0.9);
+  background: #e5383b;
   align-items: center;
   justify-content: center;
   opacity: 0;

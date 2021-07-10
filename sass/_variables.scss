@@ -6,3 +6,23 @@ $Black:#0b090a;
 $Grey:#b1a7a6;
 $White:#ffffff;
 $LightBlack:#161a1d;
+
+
+// BS VARIABLES
+$accordion-padding-y:                     1rem;
+$accordion-padding-x:                     1.25rem;
+$accordion-color:                         $White;
+$accordion-bg:                            $Tertiary;
+$accordion-border-color:                  rgba($Black, .125);
+$accordion-button-color:                  $Tertiary;
+$accordion-button-active-bg:              tint-color($Tertiary, 90%);
+$accordion-button-active-color:           shade-color($Secondary, 10%);
+
+$accordion-button-focus-border-color:     $Secondary;
+$accordion-button-focus-box-shadow:       $Tertiary;
+
+$accordion-icon-width:                    1.25rem;
+$accordion-icon-color:                    $accordion-color;
+$accordion-icon-active-color:             $accordion-button-active-color;
+$accordion-icon-transition:               transform .2s ease-in-out;
+$accordion-icon-transform:                rotate(-180deg);
